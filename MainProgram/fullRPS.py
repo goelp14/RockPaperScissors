@@ -733,6 +733,7 @@ def main():
       print ("You lost %d times on Easy Mode! \n" % loseEas)
       print ("You tied %d times on Easy Mode! \n" % tieEas)
       print ("You have a %s win rate on Easy Mode!" % percentWon)
+      print("You played a total of %d games in Easy Mode!" % int(winEas + loseEas +  tieEas))
     elif (chosenMode == 2):
       intermediateMode()
       percentWon = "{percent:.2%}".format(percent=(winInt/(winInt + loseInt +  tieInt)))
@@ -740,6 +741,7 @@ def main():
       print ("You lost %d times on Intermediate Mode! \n" % loseInt)
       print ("You tied %d times on Intermediate Mode! \n" % tieInt)
       print ("You have a %s win rate on Intermediate Mode!" % percentWon)
+      print("You played a total of %d games in Intermediate Mode!" % int(winInt + loseInt +  tieInt))
     elif (chosenMode == 3):
       expertMode()
       percentWon = "{percent:.2%}".format(percent=(winExp/(winExp + loseExp +  tieExp)))
@@ -747,6 +749,7 @@ def main():
       print ("You lost %d times on Expert Mode! \n" % loseExp)
       print ("You tied %d times on Expert Mode! \n" % tieExp)
       print ("You have a %s win rate on Expert Mode!" % percentWon)
+      print("You played a total of %d games in Expert Mode!" % int(winExp + loseExp +  tieExp))
     elif (chosenMode == 4):
       superHard()
       percentWon = "{percent:.2%}".format(percent=(winHard/(winHard + loseHard +  tieHard)))
@@ -754,6 +757,7 @@ def main():
       print ("You lost %d times Super Hard Mode! \n" % loseHard)
       print ("You tied %d times Super Hard Mode! \n" % tieHard)
       print ("You have a %s win rate! Super Hard Mode" % percentWon)
+      print("You played a total of %d games in Super Hard Mode!" % int(winHard + loseHard +  tieHard))
     elif (chosenMode == 73):
       bigbang()
       print ("You won %d times!" % int(winspec))
@@ -761,6 +765,7 @@ def main():
       print ("You tied %d times!" % int(tiespec))
       percentWon = "{percent:.2%}".format(percent=(winspec / (winspec+losespec+tiespec)))
       print ("Your win percentage is %s from a total of %d games" % (percentWon,int(winspec+losespec+tiespec)))
+      print("You played a total of %d games in Big Bang Theory Mode!" % int(winspec+losespec+tiespec))
     else:
       print ("I guess we will move on to whether or not ya wanna play again...\n")
 
