@@ -422,6 +422,7 @@ As a wise man said:
     
 Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.
   """)
+  
   choices = ["Rock","Paper","Scissors","Lizard","Spock"]
   choi = ['r','p','sc','l','sp']
   continuePlaying = True
@@ -771,16 +772,16 @@ def main():
 
     while(notyesorno):
       continueGame = input("Do you wanna play again? Type Yes or No \n")
-      if (continueGame == "Yes"):
+      if (continueGame.lower() == "yes"):
         print ("Coolio. \n")
         notyesorno = False
         playAgain = True
-      elif (continueGame == "No"):
+      elif (continueGame.lower() == "no"):
         print ("Aw that's too bad. :( \n")
         notyesorno = False
         playAgain = False
       else:
-        print ("Nah... That's not an acceptable answer. Please type Yes or No")
+        print ("Nah... That's not an acceptable answer. Please type yes or no")
         notyesorno = True
 
 def continueGameCheck(ans):
