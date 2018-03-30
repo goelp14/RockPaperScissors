@@ -17,4 +17,4 @@ with open("/path/to/output.txt", "w") as game:
         game.write(data)
         game.write("5\nNo\n")
 
-#piping format is: python /path/to/tester.py < /path/to/output.txt
+#piping format is: python /path/to/bot.py < /path/to/output.txt
