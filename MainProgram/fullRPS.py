@@ -416,12 +416,7 @@ def superHard():
 
 def bigbang():
   global probabilitiesRPS
-  print(
-  """
-As a wise man said:
-    
-Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.
-  """)
+  print('\n\033[1;36mAs a wise man said: \n\nScissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.\n\033[0m')
   
   choices = ["Rock","Paper","Scissors","Lizard","Spock"]
   choi = ['r','p','sc','l','sp']
@@ -449,7 +444,7 @@ Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spoc
         print("you must enter an integer \n")
 
   machineChoice = random.randint(0, 4)
-  result = checkWin(choice,machineChoice,1)
+  result = checkWin(choice,machineChoice,73)
   print ("You chose %s" % choices[choice])
   print ("The machine chose %s" % choices[machineChoice])
   print("You %s" % result)
@@ -472,7 +467,7 @@ Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spoc
         except ValueError:
           print("you must enter an integer \n")
     if (choice == 7):
-      print ("There's just no pleasing you, is there, Leonard?")
+      print ('\n\033[1;44m\nThere\'s just no pleasing you, is there, Leonard?\n\n\033[0m')
       continuePlaying = False
     else:
       transMatrix = buildTransitionProbabilitiesrpsclsp(prevChoice,choice,result)
