@@ -90,15 +90,6 @@ def easyMode():
       print ("The machine chose %s" % choices[machineChoice])
       print("You %s" % result)
 
-      #continueGame = input("Do you want to continue? Yes or No. \n")
-      #while(continueGameCheck(continueGame) == "Wrong input"):
-      #  continueGame = input("Do you want to continue? Yes or No. This time actually put in Yes or No... \n")
-
-      #if (continueGame == "Yes"):
-        #continuePlaying = True
-      #else:
-        #continuePlaying = False
-
 def intermediateMode():
 	choices = ["Rock", "Paper", "Scissors"]
 	continuePlaying = True
