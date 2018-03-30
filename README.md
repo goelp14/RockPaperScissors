@@ -1,4 +1,4 @@
-# RockPaperScissors
+# Rock Paper Scissors Game
 Fully Functional Rock Paper Scissors Game in Python
 
 This Game comes in 4 modes:
