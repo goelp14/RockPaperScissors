@@ -13,3 +13,6 @@ Beginner is only doing it randomly. Intermediate uses a particular AI Algorithm 
 FYI: I added the AI Algorithm bot code and Markov Chain Bot code seperately if you want to test them out with an individual tester (that I will also upload). I also included a battle of the bots where I pit the AI bot (bot 1) and the Markov Chain Bot (bot 2) against each other.
 
 Look out for an easter egg btw... BAZINGA!!! :)
+
+
+*Note: If you want to make any fixes or improve code efficiency, please make it a seperate file that is clearly labeled as your own version.*
