@@ -174,6 +174,7 @@ def intermediateMode():
 				    "Yo. Stop cheating and keep your eyes off my code. Just play normally. You wouldn't be able to look at previous decisions so accurately in a real game alright? If ya continue to do dis the machine won't care anymore - it's a sore loser and hates people like you."
 				)
 				machineChoice = random.randint(0, 2)
+				won = 11
 			elif (won > 3 and won < 10):
 				machineChoice = prevChoice
 			else:
@@ -361,6 +362,7 @@ def superHard():
   continuePlaying = True
   continueGame = ""
   result = ""
+  choice = 3
   print ("I am going to play %s" % choices[random.randint(0, 2)])
   try:
     choice = int(input("0: Rock, 1: Paper, 2: Scissors \n"))
