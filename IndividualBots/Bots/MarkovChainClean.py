@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 winEas,loseEas,tieEas = 0.0,0.0,0.0
 
