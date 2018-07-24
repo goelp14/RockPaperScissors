@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 data = ""
 with open("/path/to/output.txt", "w") as game:
