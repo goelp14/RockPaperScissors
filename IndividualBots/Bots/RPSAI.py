@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 import random
 winInt = 0.0
